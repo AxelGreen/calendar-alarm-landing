@@ -7,21 +7,112 @@
     <meta name="keywords" content="Calendar Alarm, iOS App, Reminder App">
     <meta name="author" content="Oleksa Siryi">
     <title>Calendar Alarm</title>
-    <link rel="stylesheet" href="https://axelgreen.github.io/calendar-alarm-landing/styles.css">
     <link rel="icon" type="image/png" href="https://axelgreen.github.io/calendar-alarm-landing/favicon.png" sizes="32x32">
     <meta property="og:image" content="https://axelgreen.github.io/calendar-alarm-landing/logo.png">
     <meta property="og:title" content="Calendar Alarm">
     <meta property="og:description" content="Never miss a meeting again with Calendar Alarm.">
     <meta property="og:url" content="https://axelgreen.github.io/calendar-alarm-landing">
+
+    <style>
+        /* General reset and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        /* Heading and tagline */
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p {
+            margin-top: 0.5em;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* App Store Button and QR Code */
+        .app-links {
+            margin-top: 4em;
+        }
+
+        .logo {
+            display: block;
+            margin: 1em auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+        }
+
+        .app-store-button {
+            padding: 0.8em 1.5em;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007aff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 1em;
+            text-decoration: none;
+        }
+
+        .app-store-button:hover {
+            background-color: #005bb5;
+        }
+
+        .qr-code {
+            display: block;
+            margin: 2em auto;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Footer with Privacy Policy Link */
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 1em;
+            background-color: #f5f5f5;
+            position: fixed;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #007aff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 <body>
 <div class="container">
+    <img src="https://axelgreen.github.io/calendar-alarm-landing/logo.png" alt="Logo" class="logo">
     <h1>Calendar Alarm</h1>
     <p>Never miss a meeting again</p>
 
     <div class="app-links">
         <a href="" class="app-store-button">Download on the App Store</a>
-        <img src="https://axelgreen.github.io/calendar-alarm-landing/logo.png" alt="QR Code" class="qr-code" style="width: 150px; height: 150px;">
+        <img src="https://axelgreen.github.io/calendar-alarm-landing/qr.png" alt="Logo" class="qr-code">
     </div>
 </div>
 
